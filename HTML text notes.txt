@@ -1,0 +1,97 @@
+We have basic sections in HTML ie. Head and body. 
+
+Head of the document defines data about the document. We can define things like
+title of document, description, image, we can also head of the document to
+import any resource 
+
+
+In the document tag we will put all the HTML content. 
+Body will be lot bigger than the head. 
+
+Meta tag is a tag that will define information about our file.
+Meta tag will come inside head tag. 
+
+Inside body we can have
+- head tag namely (h1 to h6)
+- paragraph tag 
+- (bold tag, italics tag) (<b> </b>, <i> </i>)
+
+HTML lays our website in a specific way. We can change it. 
+ie say we have two paragraph tag. If we change the order the browser will also
+change the order. 
+
+Break tag - <br /> (creates a newline)
+Horizontal rule tag - <hr /> (this is gives us a straight line, used to separate contents)
+
+Big tag, Small tag (used to make us text bigger or smaller)
+<big> </big>, <small> </small>
+
+Subscript and Superscript tag
+Subscript - <sub> </sub> 
+Superscript - <sup> </sup> 
+
+Comment in HTML -  <!-- This is sample html  -->
+
+Inside body tag we can have 
+<header>
+	<nav> </nav>
+</header>
+<main> 
+	<article>
+		<section>
+		
+			<aside>
+			</aside> 
+		</section>
+		<section>
+		
+		</section>
+	</article> 
+</main>
+<footer> 
+</footer>
+
+Any naviagational items such as lists or links should be placed inside nav tag. 
+We can put article inside article tag. 
+We can put each section of article(say) inside section tag.
+Inside aside tag we can put advertisement kind of things. We can put anything that is
+not direclty related to the website. 
+
+
+Links : 
+Link is the most popular HTML element which is used to link to other websites on the internet.
+ <body>
+    <a href="https://www.google.com" target="_blank"
+      ><h1><i>Google's Homepage</i></h1></a
+    >
+  </body>
+  
+  target = "_blank" is used to open the link in new tab 
+  
+using link tag we can link to another website on the internet or link to another html page in
+our directory or link to an file(image,pdf,word) in the directory. 
+
+image tag will come inside body tag. alt inside image is used to dislay the message when 
+the image is not available. 
+
+
+list tag - this also will come inside body tag. 
+two list is available. one is unordered list and ordered list. 
+
+
+It's good to wrap up HTML element because we can use this wrapping to style specific elements
+in HTML. 
+
+Two popular container to wrap HTML is div and span. 
+
+HTML can display block element and inline element. 
+Block element are HTML element which take entire width of the page. 
+Inline element take only space as much as they need. 
+
+Links are inline elements. 
+Spans are inline containers and divs are block containers. 
+
+
+Input & Forms : 
+Input tags used to collect input from users. Eg : Text Boxes, Check Boxes , Radio Buttons. 
+When we are defining these input elements in HTML , we are not making them functional. For that use JS. 
